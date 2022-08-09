@@ -17,6 +17,7 @@ let min = 1,
 const game = document.querySelector('#game'),
   minNum = document.querySelector('.min-num'),
   maxNum = document.querySelector('.max-num'),
+  numGuesses = document.querySelector('.guesses'),
   guessBtn = document.querySelector('#guess-btn'),
   guessInput = document.querySelector('#guess-input'),
   message = document.querySelector('.message');
@@ -24,6 +25,7 @@ const game = document.querySelector('#game'),
 // Assign UI min and max
 minNum.textContent = min;
 maxNum.textContent = max;
+numGuesses.textContent = guessesLeft;
 
 // Play again event listener
 game.addEventListener('mousedown', function (e) {
