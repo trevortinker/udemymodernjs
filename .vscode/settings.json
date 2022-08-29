@@ -1,5 +1,14 @@
 {
   "emmet.triggerExpansionOnTab": true,
+  "editor.formatOnSave": true,
   "editor.fontFamily": "Cascadia Code",
-  "editor.fontLigatures": true
+  "editor.fontLigatures": false,
+  "editor.fontSize": 14,
+  "editor.mouseWheelZoom": true,
+  "prettier.singleQuote": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true,
+    "source.sortImports": true
+  }
 }
